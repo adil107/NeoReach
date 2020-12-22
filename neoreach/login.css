@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color:#18AA9E;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+}
+
+nav img{
+    position: absolute;
+    width: 40px;
+    top: 18px;
+    left: 20px;
+
+}
+
+nav p{
+    position: absolute;
+    right: 15px;
+    color: lightgray;
+    top: 20px;
+    
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box1{
+    position: relative;
+    width: 32%;
+    height: 450px;
+    background-color:white;
+}
+
+.login{
+    position:absolute;
+    width: 90%;
+    height: 50px;
+    top: 10px;
+    left: 5%;
+    color: #0c0a0a9d;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-top:10px;
+    box-sizing: border-box;
+    border-bottom:1px solid lightgray;
+}
+
+
+.input1{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    top: 26%;
+    left: 5%;
+    font-size: 15px;
+    background-color: #FBFBFB;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.user{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 18px;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.input2{
+    top: 52%;
+}
+.password{
+    top: 46%;
+}
+
+
+.btn1{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    top: 68%;
+    left: 5%;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #18AA9E;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.btn1:hover{
+    background-color: #1e7a73;
+    cursor: pointer;
+}
+
+
+.forgot{
+    position: absolute;
+    font-size: 15px;
+    bottom: 13%;
+    color: #18AA9E;
+    left: 5%;
+    cursor: pointer;
+}
+
+
+.angel{
+    font-size: 12px;
+    color: #18AA9E;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+.forgot2{
+    bottom: 6%;
+}
